@@ -1,0 +1,25 @@
+{
+  "name": "pharnerosis",
+  "version": "1.0.0",
+  "description": "An Agro Based Business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/odeladetunji/pharnerosis.git"
+  },
+  "author": "Odelade Olatunji .H",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/odeladetunji/pharnerosis/issues"
+  },
+  "homepage": "https://github.com/odeladetunji/pharnerosis#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "socketio": "^1.0.0",
+    "supervisor": "^0.12.0"
+  }
+}
