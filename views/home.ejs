@@ -5,23 +5,139 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link rel="stylesheet" href="/public/css/home.css">
+    <base href="http://127.0.0.1:3000">
+	<link rel="stylesheet" href="/css/home.css" type="text/stylesheet">
+    <script src="/javascript/jquery-3.2.1.min(first).js" type='text/JavaScript'></script>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <script src="/bootstrap/js/bootstrap.min.js" type="text/JavaScript"></script>
+    <!-- Styles -->
 </head>
 <body>
-    <div class="container fluid">
+
     	<div class="row head">
     		
     	</div>
         <div class="row services">
-        	<P>Agriculture</P>
+        	<div class="col-sm-12">
+        		<i class="fa fa-bar"></i>
+        		<ul>
+                    <li id="book">Book Appointment</li>
+        			
+        			<li>Contact</li>
+        			<li>PIS</li>
+        			<li>Products</li>
+        		</ul><br>
+               <h3 id="mainPIS"><span id="pis">PIS</span></h3>
+               <h1>Pharnerosis</h1>
+               <h1>Integrated</h1>
+               <h1>Services</h1>
+        	</div>
+        </div>
+        <div class="row">
+        	<div class="col-sm-12 serv">
+        		<h3>Our Services</h3>
+        	</div>
+        </div>
+        <div class="row services">
+        	<div class="col-sm-4">
+                <div>
+                     <i></i>
+                     <p>Farm Development</p>
+                     <p>We help our clients to make their dreams come into reality by providing a first class information about agric and from Zero to reality (just you telling us about your plan for your farm, we are going to work on it and give you what you want while you relax). We also upgrade your farm to a center.</p>
+                </div>
+        	</div>
+        	<div class="col-sm-4">
+        		<img src="/public/images/" alt="">
+        	</div>
+        	<div class="col-sm-4">
+        		<div>
+                     <i></i>
+                     <p>Farm Management </p>
+                     <p>Our Farm management system helps our clients to manage their business and bring in the best practices in the world to thier businesses</p>
+                </div>
+        	</div>
+        </div>
+        <div class="row services2">
+        	    <div class="col-sm-4">
+        	    	<img src="/public/images/" alt="">
+        	    </div>
+        	    <div class="col-sm-4">
+        	    	<div>
+                        <i></i>
+                        <p>Agro-biz Consulting and Training</p>
+                        <p>Agro business is a serious business that needs more expert to give their best and develop it. we provide up to date consulting services and training by giving our clients the best of our services. we train people that are willing to go into agric businesses by giving them up to date knowledge.</p>
+                    </div>
+        	    </div>
+        	    <div class="col-sm-4">
+        	    	<img src="/public/images/" alt="">
+        	    </div>
+        </div>
+        <div class="row services3">
+             <div class="col-sm-4">
+                    <i></i>
+                    <p>Recruitment and Staffing</p>
+                    <p>We help you to hire trusted hands on your farms while you relax and do your job</p>
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <img src="/public/images/" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <i></i>
+                    <p>Agro Tourism</p>
+                    <p>This is were we bring tourism and hospitality business into agriculture, were by people can on farm and also enjoy basic amenities e.g guest house, restaurants, gym, swimming pool, etc.</p>
+                </div>
+        </div>
+        <div class="row services4">
+                <div class="col-sm-4">
+                    <img src="/public/images/" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <i></i>
+                        <p>Cyber Security Solution Provider</p>
+                        <p>We help you to protect your data center. cloud and all nessesary security solutions</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="/public/images/" alt="">
+                </div>
+        </div>
+        <div class="row services5">
+                <div class="col-sm-6">
+                    <div>
+                        <i></i>
+                        <p>Cyber Security Solution Provider</p>
+                        <p>Providing technology to drive agric businesses</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <img src="/public/images/" alt="">
+                </div>
+                
+        </div>
+        <div class="row profile">
+            <div class="col-sm-12">
+                <div></div>
+                <p>Oladapo Oluwapelumi</p>
+                <p>Founder</p>
+                <p>Oladapo Oluwapelumi is the founder of Phanerosies Intrigrated Services. He studies economics at the University of Ibadan, Ibadan. He as work with Project Management Professional Institute (PMPI) as Assistant Head of Operations south west zone. He later move too Mending lives foundation as pioneering Project Manager.</p>
+                <button onclick="redirectToLinkedIn()">View Profile</button>
+            </div>
         </div>
         <div class="aboutUs">
         	
         </div>
     	<div class="row footer">
-    		
+    		<div class="col-sm-12">
+    			<p>copyright of pharnerosis 2018</p>
+    		</div>
     	</div>
-    </div>
 </body>
+<script type="text/javascript">
+    function redirectToLinkedIn(){
+         window.location = "" //redirect to linked in profile!
+    }
+</script>
 </html>

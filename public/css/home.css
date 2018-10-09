@@ -1,0 +1,95 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #123B29;
+    font-family: Geneva;
+    color: white;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px; 
+}
+
+.services ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 30px;
+	float: right;
+	cursor: pointer;
+}
+
+.services ul li:hover {
+	color: orange;
+}
+
+.services ul {
+	padding-top: 40px;
+	margin-bottom: 220px;
+	margin-right: 20px;
+}
+
+.services h1 {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 70px;
+	padding: 0px;
+}
+
+.services {
+	padding-bottom: 150px;
+}
+
+.footer p {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+#book {
+	padding: 10px 20px;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+
+#book:hover {
+	background-color: black;
+}
+
+.serv {
+	text-align: center;
+	width: 100%;
+}
+
+#pis {
+	text-align: center;
+	font-size: 50px;
+	padding: 40px;
+	border: 1px solid orange;
+
+}
+
+#mainPIS {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.profile {
+	background-color: white;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+.profile p, .profile div {
+	background-color: white;
+	color: black;
+}
+
+.profile button {
+	background-color: black;
+	color: white;
+	padding: 6px 30px;
+	border: none;
+	border-radius: 5px;
+}
